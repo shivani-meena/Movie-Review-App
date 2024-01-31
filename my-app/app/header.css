@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    border-bottom: #F85146 solid 2px;
+    height: 128px;
+    padding: 28px 70px 0%;
+}
+
+.headerImg{
+    width: 60px;
+    float: left;
+}
+
+.movie_hub{
+    color: #F3F3F3;
+    font-size:25px;
+    margin-left:80px;
+    margin-top:15px;
+}
+
+.headerDiv{
+    width: 300px;
+    height: 100px;
+    float: right;
+    margin-bottom:56px;
+    border: white 2px solid;
+}
+
+
+.watch{
+    color:#F3F3F3;
+    margin-right: 30px;
+    line-height:5px;
+    float: right;
+    font-size: 20px;
+}
+.add{
+    color:#F3F3F3;
+    float:right;
+    line-height:5px;
+    font-size: 20px;
+
+}
+
+
