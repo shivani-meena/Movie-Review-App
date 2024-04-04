@@ -1,19 +1,14 @@
 "use client"
-import { moviesList } from "./Data.js";
-import MovieRow from "./movieRow";
-import Header from "./header";
 import React from "react";
+import Movie_row from "./movie_row";
+import Add_movie from "./addmovie";
+import Footer from "./footer";
 function Home() {
   return (
     <>
-      <Header />
-      <div className="Row_watch">Watch</div>
-      {moviesList.map((movieData) => (
-        <MovieRow 
-          key={movieData.movieName}
-          movieData={movieData}
-        />
-      ))}
+      <Movie_row />
+      <Movie_row />
+      <Add_movie />
     </>
   );
 }
