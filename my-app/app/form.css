@@ -1,0 +1,103 @@
+
+.form{
+    padding: 50px;
+    color:white;
+    background-color: #272734;
+}
+
+.heading{
+    font-size: 45px;
+    font-family: kanit;
+    padding:50px 0 50px;
+}
+
+.movie{
+    font-size:20px;
+    font-family: kanit;
+}
+
+.movie-input{
+    width:355px;
+    height:40px;
+    background-color: #5E5E75;
+    border: none;
+}
+
+.year{
+    font-size:20px;
+    font-family: kanit;
+    margin-top: 20px;
+}
+
+.options{
+    width:355px;
+    height: 40px;
+    background-color: #5E5E75;
+    border: none;
+}
+
+.time{
+    font-size:20px;
+    font-family: kanit;
+    margin-top: 20px;
+
+}
+.Genre{
+    font-size:20px;
+    font-family: kanit;
+    margin-top: 20px;
+}
+
+.plot{
+    font-size:20px;
+    font-family: kanit;
+}
+
+.genre-name{
+    font-size:16px;
+    font-family: kanit;
+    margin-bottom:15px;
+}
+
+.text-area {
+    width: 600px;
+    height: 100px;
+    margin-bottom: 25px;
+    background-color: #5E5E75;
+    border: none;
+}
+
+.checkbox{
+    width:15px;
+    height:15px;
+    margin-right:20px;
+}
+
+.time-unit{
+    font-size:20px;
+    font-family: kanit;
+    margin-right: 40px;
+    margin-left: 5px;
+}
+
+.time-input{
+    width:95px;
+    background-color: #5E5E75;
+    border: none;
+}
+
+.image-upload{
+    font-size:20px;
+    font-family: kanit;
+    margin-bottom: 15px;
+}
+
+.image-button{
+    padding: 12px 32px;
+    font-size:20px;
+    font-family: kanit;
+    border-radius:50px;
+    color:#F3F3F3;
+    background-color: #272734;
+    border: solid red 2px;
+}

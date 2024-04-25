@@ -5,6 +5,12 @@
     padding-bottom: 30px;
 }
 
+@media(min-width:1200px){
+    .footer-div {
+        padding-bottom: 100px;
+    }
+}
+
 .footer-text {
     margin-left: 10px;
     color: #F3F3F3;

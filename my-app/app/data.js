@@ -1,0 +1,32 @@
+export const initialMovieList = [
+	{
+		id: 1,
+		movie_name: 'Dear Zindagi',
+		year: '2016',
+		time: '2h 31m',
+		genre: 'Drama, Romance',
+		description: 'kaira is a building cinemagrapher in search of a perfect life. her encounter with jug, an unconventional thinker.helps her gain a new perspective on life .she discovers that happiness ia all about finding comfort in life"s imperfections.',
+		image_url: 'movie_one.png',
+		vote:0,
+	},
+	{
+		id: 2,
+		movie_name: 'Brave',
+		year: '2012',
+		time: '1h 33m',
+		genre: 'Adventures, comedy',
+		description: 'Determind to make her own path in life, princess merida defins a custom that brings chaos to her kingdom granted one wish , marida must rely on her bravery and her archery skills to undo a beastly curse.',
+		image_url: 'movie_two.png',
+		vote:0,
+	},
+	{
+		id: 3,
+		movie_name: 'Soul surfer',
+		year: '2011',
+		time: '1h 52m',
+		genre: 'Drama, Biography, Family',
+		description: "Teenage surfer Bethany Hamilton overcomes the odds and her own fears of returning to the water after losing her left arm in a shark attacks.",
+		image_url: 'three.png',
+		vote:0,
+	},
+]

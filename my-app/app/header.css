@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karantina');
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 
-.header-row{
+.header-row {
     align-items: center;
 }
 
@@ -15,31 +15,50 @@
 @media (max-width:576px) {
     .header-row {
         justify-content: space-between;
+        padding-top: 30px;
     }
-}
 
-@media(max-width:992px) {
-    .hr{
-        width:100%;
-        border-bottom: #F85146 solid 2px;
+    .search1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
-}
 
-
-@media (max-width:576px) {
     .input-text {
         height: 60px;
         width: 260px;
     }
-} 
-
-.header-img {
-    width:45px;
-    margin-bottom: 5px;
 }
 
-.image{
-    /* color:#F3F3F3; */
+input:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .search {
+        display: none;
+    }
+}
+
+@media(max-width:992px) {
+    .hr {
+        width: 100%;
+        border-bottom: #F85146 solid 2px;
+    }
+}
+
+.mobile-search {
+    width: max-content;
+}
+
+.header-img {
+    width: 45px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.logo-image {
+    color: #F3F3F3;
     font-family: Karantina;
     font-size: 40px;
 }
@@ -51,18 +70,27 @@
 }
 
 .input-text {
+    width: 240px;
     height: 60px;
     float: left;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .button {
-    width: 60px;
+    width: 85px;
     height: 60px;
-    border: none;
+    color: #F3F3F3;
+    font-family: Kanit;
+    font-size: 20px;
     background-color: #F85146;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
 }
 
-.lists{
+.lists {
     font-family: Kanit;
     font-size: 20px;
     display: flex;
@@ -71,10 +99,13 @@
 }
 
 .list-text {
-    margin-right:20px;
+    margin-right: 20px;
 }
 
-/* 
-li{
-    color:#F3F3F3;
-} */
+.navbar-toggler {
+    border: none;
+}
+
+li {
+    color: #F3F3F3;
+}
